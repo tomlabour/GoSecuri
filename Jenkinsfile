@@ -9,3 +9,7 @@ pipeline {
             steps {
                 // Get some code from a GitHub repository
                 git 'https://github.com/tomlabour/GoSecuri'
+            }
+        }
+    }
+}
