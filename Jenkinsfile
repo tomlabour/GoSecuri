@@ -8,7 +8,7 @@ pipeline {
         stage('Clean') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/tomlabour/GoSecuri'
+                git 'https://github.com/tomlabour/GoSecuri.git'
                 
                 sh 'mvn clean'
             }
